@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 
 namespace WinAPI
 {
-    public static class WindowDrawing
+    public class WindowDrawing
     {
         [DllImport("user32.dll")]
         static extern bool RedrawWindow(IntPtr hWnd, IntPtr lprcUpdate, IntPtr hrgnUpdate, RedrawWindowFlags flags);
@@ -63,9 +63,9 @@ namespace WinAPI
 
 
 
-        public static void ClearOutline(int win)
+        public static void ClearOutline(IntPtr win)
         {
-            RedrawWindow(new IntPtr(win), IntPtr.Zero, IntPtr.Zero, RedrawWindowFlags.Invalidate | RedrawWindowFlags.Frame | RedrawWindowFlags.Erase);
+            RedrawWindow(win, IntPtr.Zero, IntPtr.Zero, RedrawWindowFlags.Invalidate | RedrawWindowFlags.Frame | RedrawWindowFlags.Erase);
         }
     }
 }

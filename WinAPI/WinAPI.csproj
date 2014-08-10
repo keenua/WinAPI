@@ -45,7 +45,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -76,12 +76,6 @@
     <Compile Include="WindowManipulation.cs" />
     <Compile Include="WindowSearch.cs" />
     <Compile Include="WindowsRegistry.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\GraphicsProcessor\GraphicsProcessor\GraphicsProcessor.csproj">
-      <Project>{A5F9B61A-A627-47F6-89C1-3DB3356909D1}</Project>
-      <Name>GraphicsProcessor</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
