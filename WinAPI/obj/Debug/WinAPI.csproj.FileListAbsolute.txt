@@ -1,0 +1,12 @@
+D:\Work\Projects\WinAPI\WinAPI\bin\Debug\WinAPI.dll
+D:\Work\Projects\WinAPI\WinAPI\bin\Debug\WinAPI.pdb
+D:\Work\Projects\WinAPI\WinAPI\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Projects\WinAPI\WinAPI\obj\Debug\WinAPI.dll
+D:\Work\Projects\WinAPI\WinAPI\obj\Debug\WinAPI.pdb
+E:\Work\Projects\WinAPI\WinAPI\obj\Debug\WinAPI.csprojResolveAssemblyReference.cache
+E:\Work\Projects\WinAPI\WinAPI\obj\Debug\WinAPI.dll
+E:\Work\Projects\WinAPI\WinAPI\obj\Debug\WinAPI.pdb
+E:\Work\Projects\WinAPI\WinAPI\bin\Debug\WinAPI.dll
+E:\Work\Projects\WinAPI\WinAPI\bin\Debug\WinAPI.pdb
+E:\Work\Projects\WinAPI\WinAPI\bin\Debug\GraphicsProcessor.dll
+E:\Work\Projects\WinAPI\WinAPI\bin\Debug\GraphicsProcessor.pdb
