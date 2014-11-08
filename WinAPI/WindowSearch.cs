@@ -196,7 +196,7 @@ namespace WinAPI
         
         [DllImport("user32")]
         [return: MarshalAs(UnmanagedType.Bool)]
-        public static extern bool EnumChildWindows(IntPtr window, EnumWindowsProc callback, int i);
+        public static extern bool EnumChildWindows(IntPtr window, EnumWindowsProc callback, IntPtr i);
 
         [DllImport("user32.dll")]
         public static extern IntPtr GetWindow(IntPtr hWnd, int uCmd);
@@ -217,7 +217,7 @@ namespace WinAPI
             try
             {
                 EnumWindowsProc childProc = new EnumWindowsProc(EnumWindow);
-                EnumChildWindows(parent, childProc, GCHandle.ToIntPtr(listHandle).ToInt32());
+                EnumChildWindows(parent, childProc, GCHandle.ToIntPtr(listHandle));
             }
             finally
             {
